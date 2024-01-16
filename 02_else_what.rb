@@ -18,4 +18,16 @@ else
 end
 
 
-# uless
+# Unless
+
+# unless hour >= 9
+#   puts "It's too early! Go back to bed"
+# elsif hour < 13
+#   puts "Good morning, and welcome to Emma's lecture ☕️"
+# elsif hour < 17
+#   puts "Iiiiiiiit's lunchtime 🥗"
+# elsif hour < 18
+#   puts "Ready for live code 🤯"
+# else
+#   puts "🔔 Have you done your flashcards yet?"
+# end
