@@ -1,8 +1,10 @@
 # Multiple Conditions
+puts "What should I do with my time?"
+sleep(1)
 hour = Time.now.hour
 
 if (hour > 9 && hour < 13) || (hour > 14 && hour < 18)
-  puts "Yalla, Le Wagon is open and you can learn to code!"
+  puts "- Yalla, Le Wagon is open and you can learn to code!"
 else
-  puts "I think you should go to sleep"
+  puts "- I think you should go to sleep"
 end
