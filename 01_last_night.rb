@@ -3,13 +3,15 @@
 # Variables & Methods 🍺
 
 # String
+string = "Emma"
 
 # Integer
+emmas_favorite_number = 2
 
 # Float
 
 # Booleans
 
-# Variables
+# Variables >>>> Reusable Data for reuse
 
-# Methods >>>>> Reusable Code
+# Methods >>>>> Reusable Lines of Code
