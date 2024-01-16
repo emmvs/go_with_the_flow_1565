@@ -1,17 +1,21 @@
 # Controlling the flow (if/else)
-# hour = Time.now.hour
 
-puts "What should I do, my friend?"
+# Daily Schedule
+puts "What time is it?⏰"
+# hour = Time.now.hour
 hour = gets.chomp.to_i
 
-if hour < 12
-  puts "Good morning! Get ready for the lecture!"
-elsif hour > 20
-  puts "Good night! Did you do your flashcards?"
-elsif hour > 12
-  puts "Good afternoon! Live Code it is!"
+if hour < 9
+  puts "It's too early! Go back to bed"
+elsif hour < 13
+  puts "Good morning, and welcome to Emmas lecture ☕️"
+elsif hour < 17
+  puts "Iiiiiiiit's lunchtime 🥗"
+elsif hour < 18
+  puts "Ready for live code 🤯"
 else
-  puts "Lunch time!"
+  puts "🔔 Have you done your flashcards yet?"
 end
+
 
 # uless
