@@ -5,8 +5,12 @@ puts "Welcome to Batch 1565! 👋"
 students_of_1565 = ["Alfred", "Roi", "Viorel", "Carsten", "Romain", "Kalek", "Tarik", "Charlotte", "Antal", "Ben", "Inès", "Valerija", "Dinusha", "Marcus", "Katherine", "Sebastian", "Erwan", "Sidney", "Martin", "Jérôme", "Dominic", "Ana", "Carl", "Alfonso"]
 
 # Get the number of students in the batch
+# SIZE/LENGTH vs. COUNT
 num_students = students_of_1565.count
 puts "There are #{num_students} students in Batch #1565."
+
+a_students = students_of_1565.count { |student| student.start_with?("A") }
+puts "We have #{a_students} students with the letter 'A'."
 
 # Add a new student to the end of the array
 new_student_name = "Adam"
@@ -35,3 +39,9 @@ puts "Martin is at index #{index_of_martin} in the array."
 # 5. Sort the students alphabetically
 sorted_students = students_of_1565.sort
 puts "Here are the students sorted alphabetically: #{sorted_students.join(', ')}"
+
+# Iterating through the array using 'each' method
+puts "Let's iterate through the array of students:"
+students_of_1565.each do |student|
+  puts "Student: #{student}"
+end
