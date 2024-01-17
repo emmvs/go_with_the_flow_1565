@@ -1,14 +1,37 @@
 # For Loop
+
 number_of_students = 0
+# sum = 0
+# sum += number
+
 students_of_1565 = ["Alfred", "Roi", "Viorel", "Carsten", "Romain", "Kalek", "Tarik", "Charlotte", "Antal", "Ben", "Inès", "Valerija", "Dinusha", "Marcus", "Katherine", "Sebastian", "Erwan", "Sidney", "Martin", "Jérôme", "Dominic", "Ana", "Carl", "Alfonso"]
+# students_of_1565.sort!
 
-puts "📣 Here are all the Little Baby Devs of Batch 1565 🍼:"
+puts "Welcome to Batch 1565 🐝"
 
-# Let's use a fun for loop to call out each student's name
-for student in students_of_1565
-  puts "👶 #{student}"
-  number_of_students += 1
-  sleep(1) # Pause for suspense!
+# Block of Code
+# for student in students_of_1565 do
+#   puts "#{student}"
+#   number_of_students += 1
+#   sleep(1)
+# end
+
+# puts number_of_students
+
+# Iteration vs. Loop
+
+# Iteration
+# Something that is countable, hence it's called Enumerable
+# .each
+
+students_of_1565.each do |student|
+  puts "#{student} is in this Batch"
 end
 
-puts "We've got #{number_of_students} little baby devs 🍼 all present and ready to code!"
+# Loop
+# We don't know how many times the loop will go
+# While & Until
+
+
+# If condition is met
+# Unless condition is met

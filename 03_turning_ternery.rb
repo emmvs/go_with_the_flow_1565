@@ -1,4 +1,5 @@
 # Ternary operator
+
 puts "heads or tails? 🪙"
 choice = gets.chomp
 coin = ["heads", "tails"].sample
@@ -10,4 +11,4 @@ coin = ["heads", "tails"].sample
 # end
 
 result = (choice == coin) ? "winner winner chicken dinner" : "loooser"
-puts "#{result}, that was #{coin}"
+puts "#{result}, that was #{coin} 🪙"

@@ -1,14 +1,14 @@
-# Case Statements
-puts "Do you want to go out with me?🌼"
+# Case Statement
+puts "Do you want to go out with me? 🌹"
 choice = gets.chomp
 
 case choice
 when "yes"
-  puts 'Lets go to the movies!'
+  puts "lets go to the movies!!!!!!"
 when "no"
-  puts 'I actually like your best friend'
+  puts "Oh no!! Ahhhhm I actually like your firends"
 when "maybe"
-  puts 'Lets see when youre not 12 anymore...'
+  puts "Okay, let's see when your not 12 anymore lol"
 else
-  puts 'nothing here'
+  puts "Did you throw away my letter? 🥺"
 end

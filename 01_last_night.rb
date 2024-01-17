@@ -1,17 +1,40 @@
-# Start with a 5-minutes rehearsal on:
-# Data types: String, Integer, Float, Booleans
-# Variables & Methods 🍺
+# Data Types
 
 # String
-string = "Emma"
+"Emma"
+
+# Boolean
+True OR False
 
 # Integer
-emmas_favorite_number = 2
+3
 
 # Float
+3.14
 
-# Booleans
+# Range
+(1..6)
 
-# Variables >>>> Reusable Data for reuse
+# Don't write arrays like this!!!
+# ["emma", "20" "adam", "22"]
 
-# Methods >>>>> Reusable Lines of Code
+# Array
+teachers = ["Adam", "Pedro", "Emma"]
+# [] Square Brackets
+# () Paranthesis
+# {} Curly Brackets (Fries when Emma teaches 🍟)
+# "" Double Quotation marks
+# "#{}" Sringle Interpolation
+# '' Single Quotation marks
+
+# Variables
+teachers
+
+# Methods  ⬇️
+teachers.count
+
+def emmas_method()
+  # Some important code
+end
+
+p emmas_method()
